@@ -43,7 +43,11 @@ const Header = () => {
                       <img src={profile} alt="profile" />
                     </div>
                     <div className="border-r h-6 border-solid"></div>
-                    <div className="bg-light p-2 rounded-full ">
+                    <div className="bg-light p-2 rounded-full indicator">
+                      <span className="indicator-item badge badge-secondary">
+                        6
+                      </span>
+
                       <img src={busket} alt="busket" />
                     </div>
                   </div>

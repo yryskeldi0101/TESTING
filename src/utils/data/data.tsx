@@ -172,7 +172,7 @@ export const categories_array: CategoriesArray[] = [
 ];
 //*                              */
 
-export const saleCartData = [
+export const bestsellers_array = [
   {
     icon: liked,
     image: photo,
@@ -237,6 +237,22 @@ export const saleCartData = [
 
 // ********************************
 export const news_array = [
+  {
+    discount: 50,
+    title: "На кухонную мебель ",
+  },
+  {
+    discount: 50,
+    title: "На кухонную мебель ",
+  },
+  {
+    discount: 50,
+    title: "На кухонную мебель ",
+  },
+  {
+    discount: 50,
+    title: "На кухонную мебель ",
+  },
   {
     discount: 50,
     title: "На кухонную мебель ",

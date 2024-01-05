@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AuctionItems = () => {
   return (
-    <div>AuctionItems</div>
-  )
-}
+    <div>
+      <h2 className="text-2xl font-bold">Аукционные товары</h2>
+    </div>
+  );
+};
 
-export default AuctionItems
+export default AuctionItems;
