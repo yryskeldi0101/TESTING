@@ -1,6 +1,7 @@
 import React from "react";
+import Histories from "../components/UI/Histories";
 
-const Histories = () => {
+const HistoriesContainer = () => {
   return (
     <div>
       <Histories />
@@ -8,4 +9,4 @@ const Histories = () => {
   );
 };
 
-export default Histories;
+export default HistoriesContainer;
