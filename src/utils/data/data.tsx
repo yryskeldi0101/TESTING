@@ -16,6 +16,9 @@ import image_9 from "../../assets/images/image_9.png";
 import image_10 from "../../assets/images/image_10.png";
 import { CategoriesArray, ProfilesArray } from "../types/types";
 //                                                  /
+import photo from "../../assets/images/photo.png";
+import liked from "../../assets/icons/heart.svg";
+//* * * * * * * * * * * * * * * * *
 
 export const profiles_array: ProfilesArray[] = [
   {
@@ -165,5 +168,106 @@ export const categories_array: CategoriesArray[] = [
     label: "Смесители",
     description: "3000 товаров",
     img: image_2,
+  },
+];
+//*                              */
+
+export const saleCartData = [
+  {
+    icon: liked,
+    image: photo,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    discountPrice: "1294 с",
+    discount: "1294 с",
+    availability: "В наличии",
+    set: "Комплект",
+  },
+  {
+    icon: liked,
+    image: photo,
+    title: "Держатель для лейки BOOU PG605 ",
+    price: "1294 с",
+    discountPrice: "1294 с",
+    discount: "999999 с",
+    availability: "В наличии",
+    set: "Комплект",
+  },
+  {
+    icon: liked,
+    image: photo,
+    title: "Держатель для лейки ",
+    price: "1294 с",
+    discountPrice: "1294 с",
+    discount: "1294 с",
+    availability: "В наличии",
+    set: "Комплект",
+  },
+  {
+    icon: liked,
+    image: photo,
+    title: "Держатель для лейки BOOU PG605 ",
+    price: "1294 с",
+    discountPrice: "1294 с",
+    discount: "1294 с",
+    availability: "В наличии",
+    set: "Комплект",
+  },
+  {
+    icon: liked,
+    image: photo,
+    title: "Держатель для лейки BOOU PG605 ",
+    price: "1294 с",
+    discountPrice: "1294 с",
+    discount: "1294 с",
+    availability: "В наличии",
+    set: "Комплект",
+  },
+  {
+    icon: liked,
+    image: photo,
+    title: "Держатель для лейки BOOU PG605 ",
+    price: "1294 с",
+    discountPrice: "1294 с",
+    discount: "1294 с",
+    availability: "В наличии",
+    set: "Комплект",
+  },
+];
+
+// ********************************
+export const news_array = [
+  {
+    discount: 50,
+    title: "На кухонную мебель ",
+  },
+  {
+    discount: 50,
+    title: "На кухонную мебель ",
+  },
+];
+// ********************************
+
+export const address_array = [
+  {
+    title: "Iskender home",
+    text: "открыть в карте",
+    description: "Кыргызстан, г. Бишкек ул. Турусбекова A167",
+    time: "08:00 - 22:00",
+    number: "+996 500 345 345",
+  },
+  {
+    title: "Iskender home",
+    text: "открыть в карте",
+    description: "Кыргызстан, г. Бишкек ул. Турусбекова A167",
+    time: "08:00 - 22:00",
+    number: "+996 500 345 345",
+  },
+  {
+    title: "Iskender home",
+    text: "открыть в карте",
+    description: "Кыргызстан, г. Бишкек ул. Турусбекова A167",
+    time: "08:00 - 22:00",
+    number: "+996 500 345 345",
   },
 ];
